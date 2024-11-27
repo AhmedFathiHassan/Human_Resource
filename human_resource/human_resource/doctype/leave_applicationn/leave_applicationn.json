@@ -1,0 +1,135 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "EMP.####",
+ "creation": "2024-11-27 14:38:42.953259",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "employee_name",
+  "leave_type",
+  "department",
+  "status",
+  "column_break_dyghe",
+  "leave_balance_before_application",
+  "from_date",
+  "to_date",
+  "total_leave_days",
+  "alternative_employee",
+  "alternative_employee_name",
+  "column_break_bjend",
+  "reason",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Data",
+   "label": "Employee"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "leave_type",
+   "fieldtype": "Link",
+   "label": "Leave Type",
+   "options": "Leave Typpe"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nApproved\nRejected"
+  },
+  {
+   "fieldname": "column_break_dyghe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "leave_balance_before_application",
+   "fieldtype": "Data",
+   "label": "Leave Balance Before Application "
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "total_leave_days",
+   "fieldtype": "Data",
+   "label": "Total Leave Days"
+  },
+  {
+   "fieldname": "alternative_employee",
+   "fieldtype": "Data",
+   "label": "Alternative Employee "
+  },
+  {
+   "fieldname": "alternative_employee_name",
+   "fieldtype": "Data",
+   "label": "Alternative Employee Name"
+  },
+  {
+   "fieldname": "column_break_bjend",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Long Text",
+   "label": "Reason"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Leave Applicationn",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-11-27 15:50:29.467683",
+ "modified_by": "Administrator",
+ "module": "Human Resource",
+ "name": "Leave Applicationn",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
